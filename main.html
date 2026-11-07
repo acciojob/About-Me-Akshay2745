@@ -1,1 +1,101 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="hero">
+        <img src="images/profile.jpg" alt="Portrait of me" width="150" height="150" class="avatar">
+        <h1>Personal Profile</h1>
+    </header>
+
+    <main>
+
+        <section id="name" class="card">
+            <h2>Name</h2>
+            <p>Your Full Name</p>
+        </section>
+
+        <section id="email" class="card">
+            <h2>Email</h2>
+            <p><a href="mailto:you@example.com">you@example.com</a></p>
+        </section>
+
+        <section id="profile" class="card">
+            <h2>Profile</h2>
+            <p>MERN Stack Developer <span class="badge">Fresher</span></p>
+        </section>
+
+        <section id="about" class="card">
+            <h2>About me</h2>
+            <p>
+                I am a developer in training who enjoys building small web projects.
+                I am learning HTML, CSS, JavaScript and the MERN stack, and I practise
+                data structures and algorithms every day.
+            </p>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+                    <h3>🟨 JavaScript <span class="badge">Strong</span></h3>
+                    <div class="bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="fill" style="width: 85%">85%</div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>🌐 HTML <span class="badge">Strong</span></h3>
+                    <div class="bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="fill" style="width: 80%">80%</div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>🎨 CSS <span class="badge">Good</span></h3>
+                    <div class="bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                        <div class="fill" style="width: 65%">65%</div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>🧠 DSA <span class="badge">Improving</span></h3>
+                    <div class="bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                        <div class="fill" style="width: 55%">55%</div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>⚛️ React <span class="badge">Learning</span></h3>
+                    <div class="bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                        <div class="fill" style="width: 40%">40%</div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>🍃 MongoDB <span class="badge">Beginner</span></h3>
+                    <div class="bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        <div class="fill" style="width: 30%">30%</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Profile</p>
+    </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
